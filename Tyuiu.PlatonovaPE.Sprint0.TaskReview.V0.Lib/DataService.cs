@@ -1,10 +1,10 @@
-﻿namespace Tyuiu.PlatonovaPE.Sprint0.TaskReview.V0.Lib
+namespace Tyuiu.PlatonovaPE.Sprint0.TaskReview.V0.Lib
 {
     public class DataService
     {
-        public int Calculate(int x, int y, int z)
+        public int Calculate(int x, int y, int z, int A)
         {
-            return (x + y + z) * 5;
+            return A + (x + z) * y;
         }
 
     }
