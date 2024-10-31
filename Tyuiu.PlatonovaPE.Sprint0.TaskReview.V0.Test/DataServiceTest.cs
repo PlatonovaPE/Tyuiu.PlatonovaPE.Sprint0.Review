@@ -13,8 +13,9 @@ namespace Tyuiu.PlatonovaPE.Sprint0.TaskReview.V0.Test
             int x = 6;
             int y = 4;
             int z = 5;
-            var res = ds.Calculate(x, y, z);
-            Assert.AreEqual(75, res);
+            int A = 7;
+            var res = ds.Calculate(x, y, z, A);
+            Assert.AreEqual(51, res);
 
             
         }
